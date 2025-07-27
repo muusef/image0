@@ -40,6 +40,53 @@
             width: 100%;
           }
         }
+
+        /* ======= MOBILE RESPONSIVE ======= */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 5px;
+  }
+
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .topnav a {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #333;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header h1 {
+    font-size: 24px;
+  }
+  .topnav a {
+    font-size: 14px;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
